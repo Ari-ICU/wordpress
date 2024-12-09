@@ -1,0 +1,568 @@
+2024-12-09T12:39:45+00:00 ERROR API error: Array
+(
+    [url] => https://api-m.sandbox.paypal.com/v1/oauth2/token
+    [method] => POST
+    [http_status] => 401
+    [request] => Array
+(
+    [grant_type] => client_credentials
+)
+
+    [error] => Array
+        (
+            [error] => invalid_client
+            [error_description] => Client Authentication failed
+        )
+
+)
+2024-12-09T12:40:00+00:00 ERROR API error: Array
+(
+    [url] => https://api-m.sandbox.paypal.com/v2/checkout/orders
+    [method] => POST
+    [http_status] => 401
+    [request] => Array
+(
+    [intent] => CAPTURE
+    [payer] => Array
+        (
+            [name] => Array
+                (
+                    [given_name] => thoeurn
+                    [surname] => ratha
+                )
+
+            [email_address] => thoeurn.ratha.kh@gmail.com
+        )
+
+    [purchase_units] => Array
+        (
+            [0] => Array
+                (
+                    [amount] => Array
+                        (
+                            [value] => 119.82
+                            [currency_code] => USD
+                            [breakdown] => Array
+                                (
+                                    [item_total] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 119.82
+                                        )
+
+                                    [shipping] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 0
+                                        )
+
+                                    [tax_total] => Array
+                                        (
+                                            [value] => 0.00
+                                            [currency_code] => USD
+                                        )
+
+                                    [discount] => Array
+                                        (
+                                            [value] => 0.00
+                                            [currency_code] => USD
+                                        )
+
+                                    [handling] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 0.00
+                                        )
+
+                                )
+
+                        )
+
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [name] => BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats
+                                    [quantity] => 1
+                                    [unit_amount] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 56.99
+                                        )
+
+                                    [sku] => 394
+                                    [description] => Product ID: 394
+                                )
+
+                            [1] => Array
+                                (
+                                    [name] => MBJ Women's Solid Short Sleeve Boat Neck V
+                                    [quantity] => 1
+                                    [unit_amount] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 9.85
+                                        )
+
+                                    [sku] => 397
+                                    [description] => Product ID: 397
+                                )
+
+                            [2] => Array
+                                (
+                                    [name] => DANVOUY Womens T Shirt Casual Cotton Short
+                                    [quantity] => 1
+                                    [unit_amount] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 12.99
+                                        )
+
+                                    [sku] => 398
+                                    [description] => Product ID: 398
+                                )
+
+                            [3] => Array
+                                (
+                                    [name] => Rain Jacket Women Windbreaker Striped Climbing Raincoats
+                                    [quantity] => 1
+                                    [unit_amount] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 39.99
+                                        )
+
+                                    [sku] => 395
+                                    [description] => Product ID: 395
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [application_context] => Array
+        (
+            [shipping_preference] => NO_SHIPPING
+            [return_url] => http://localhost:8888/wordpress/wc-api/ppcp_checkout_return/?_checkoutnonce=28ab75c5c8
+            [cancel_url] => http://localhost:8888/wordpress/checkout-2/
+            [brand_name] => Ecommerce
+        )
+
+)
+
+    [error] => Array
+        (
+            [error] => invalid_client
+            [error_description] => Client Authentication failed
+        )
+
+)
+2024-12-09T12:40:00+00:00 ERROR Error creating PayPal order. Msg: Client Authentication failed Params: Array
+(
+    [intent] => CAPTURE
+    [payer] => Array
+        (
+            [name] => Array
+                (
+                    [given_name] => thoeurn
+                    [surname] => ratha
+                )
+
+            [email_address] => thoeurn.ratha.kh@gmail.com
+        )
+
+    [purchase_units] => Array
+        (
+            [0] => Array
+                (
+                    [amount] => Array
+                        (
+                            [value] => 119.82
+                            [currency_code] => USD
+                            [breakdown] => Array
+                                (
+                                    [item_total] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 119.82
+                                        )
+
+                                    [shipping] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 0
+                                        )
+
+                                    [tax_total] => Array
+                                        (
+                                            [value] => 0.00
+                                            [currency_code] => USD
+                                        )
+
+                                    [discount] => Array
+                                        (
+                                            [value] => 0.00
+                                            [currency_code] => USD
+                                        )
+
+                                    [handling] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 0.00
+                                        )
+
+                                )
+
+                        )
+
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [name] => BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats
+                                    [quantity] => 1
+                                    [unit_amount] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 56.99
+                                        )
+
+                                    [sku] => 394
+                                    [description] => Product ID: 394
+                                )
+
+                            [1] => Array
+                                (
+                                    [name] => MBJ Women's Solid Short Sleeve Boat Neck V
+                                    [quantity] => 1
+                                    [unit_amount] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 9.85
+                                        )
+
+                                    [sku] => 397
+                                    [description] => Product ID: 397
+                                )
+
+                            [2] => Array
+                                (
+                                    [name] => DANVOUY Womens T Shirt Casual Cotton Short
+                                    [quantity] => 1
+                                    [unit_amount] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 12.99
+                                        )
+
+                                    [sku] => 398
+                                    [description] => Product ID: 398
+                                )
+
+                            [3] => Array
+                                (
+                                    [name] => Rain Jacket Women Windbreaker Striped Climbing Raincoats
+                                    [quantity] => 1
+                                    [unit_amount] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 39.99
+                                        )
+
+                                    [sku] => 395
+                                    [description] => Product ID: 395
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [application_context] => Array
+        (
+            [shipping_preference] => NO_SHIPPING
+            [return_url] => http://localhost:8888/wordpress/wc-api/ppcp_checkout_return/?_checkoutnonce=28ab75c5c8
+            [cancel_url] => http://localhost:8888/wordpress/checkout-2/
+            [brand_name] => Ecommerce
+        )
+
+)
+2024-12-09T12:40:12+00:00 ERROR API error: Array
+(
+    [url] => https://api-m.sandbox.paypal.com/v2/checkout/orders
+    [method] => POST
+    [http_status] => 401
+    [request] => Array
+(
+    [intent] => CAPTURE
+    [payer] => Array
+        (
+            [name] => Array
+                (
+                    [given_name] => thoeurn
+                    [surname] => ratha
+                )
+
+            [email_address] => thoeurn.ratha.kh@gmail.com
+        )
+
+    [purchase_units] => Array
+        (
+            [0] => Array
+                (
+                    [amount] => Array
+                        (
+                            [value] => 119.82
+                            [currency_code] => USD
+                            [breakdown] => Array
+                                (
+                                    [item_total] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 119.82
+                                        )
+
+                                    [shipping] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 0
+                                        )
+
+                                    [tax_total] => Array
+                                        (
+                                            [value] => 0.00
+                                            [currency_code] => USD
+                                        )
+
+                                    [discount] => Array
+                                        (
+                                            [value] => 0.00
+                                            [currency_code] => USD
+                                        )
+
+                                    [handling] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 0.00
+                                        )
+
+                                )
+
+                        )
+
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [name] => BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats
+                                    [quantity] => 1
+                                    [unit_amount] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 56.99
+                                        )
+
+                                    [sku] => 394
+                                    [description] => Product ID: 394
+                                )
+
+                            [1] => Array
+                                (
+                                    [name] => MBJ Women's Solid Short Sleeve Boat Neck V
+                                    [quantity] => 1
+                                    [unit_amount] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 9.85
+                                        )
+
+                                    [sku] => 397
+                                    [description] => Product ID: 397
+                                )
+
+                            [2] => Array
+                                (
+                                    [name] => DANVOUY Womens T Shirt Casual Cotton Short
+                                    [quantity] => 1
+                                    [unit_amount] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 12.99
+                                        )
+
+                                    [sku] => 398
+                                    [description] => Product ID: 398
+                                )
+
+                            [3] => Array
+                                (
+                                    [name] => Rain Jacket Women Windbreaker Striped Climbing Raincoats
+                                    [quantity] => 1
+                                    [unit_amount] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 39.99
+                                        )
+
+                                    [sku] => 395
+                                    [description] => Product ID: 395
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [application_context] => Array
+        (
+            [shipping_preference] => NO_SHIPPING
+            [return_url] => http://localhost:8888/wordpress/wc-api/ppcp_checkout_return/?_checkoutnonce=28ab75c5c8
+            [cancel_url] => http://localhost:8888/wordpress/checkout-2/
+            [brand_name] => Ecommerce
+        )
+
+)
+
+    [error] => Array
+        (
+            [error] => invalid_client
+            [error_description] => Client Authentication failed
+        )
+
+)
+2024-12-09T12:40:12+00:00 ERROR Error creating PayPal order. Msg: Client Authentication failed Params: Array
+(
+    [intent] => CAPTURE
+    [payer] => Array
+        (
+            [name] => Array
+                (
+                    [given_name] => thoeurn
+                    [surname] => ratha
+                )
+
+            [email_address] => thoeurn.ratha.kh@gmail.com
+        )
+
+    [purchase_units] => Array
+        (
+            [0] => Array
+                (
+                    [amount] => Array
+                        (
+                            [value] => 119.82
+                            [currency_code] => USD
+                            [breakdown] => Array
+                                (
+                                    [item_total] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 119.82
+                                        )
+
+                                    [shipping] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 0
+                                        )
+
+                                    [tax_total] => Array
+                                        (
+                                            [value] => 0.00
+                                            [currency_code] => USD
+                                        )
+
+                                    [discount] => Array
+                                        (
+                                            [value] => 0.00
+                                            [currency_code] => USD
+                                        )
+
+                                    [handling] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 0.00
+                                        )
+
+                                )
+
+                        )
+
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [name] => BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats
+                                    [quantity] => 1
+                                    [unit_amount] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 56.99
+                                        )
+
+                                    [sku] => 394
+                                    [description] => Product ID: 394
+                                )
+
+                            [1] => Array
+                                (
+                                    [name] => MBJ Women's Solid Short Sleeve Boat Neck V
+                                    [quantity] => 1
+                                    [unit_amount] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 9.85
+                                        )
+
+                                    [sku] => 397
+                                    [description] => Product ID: 397
+                                )
+
+                            [2] => Array
+                                (
+                                    [name] => DANVOUY Womens T Shirt Casual Cotton Short
+                                    [quantity] => 1
+                                    [unit_amount] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 12.99
+                                        )
+
+                                    [sku] => 398
+                                    [description] => Product ID: 398
+                                )
+
+                            [3] => Array
+                                (
+                                    [name] => Rain Jacket Women Windbreaker Striped Climbing Raincoats
+                                    [quantity] => 1
+                                    [unit_amount] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 39.99
+                                        )
+
+                                    [sku] => 395
+                                    [description] => Product ID: 395
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [application_context] => Array
+        (
+            [shipping_preference] => NO_SHIPPING
+            [return_url] => http://localhost:8888/wordpress/wc-api/ppcp_checkout_return/?_checkoutnonce=28ab75c5c8
+            [cancel_url] => http://localhost:8888/wordpress/checkout-2/
+            [brand_name] => Ecommerce
+        )
+
+)
+2024-12-09T12:43:32+00:00 INFO Webhook could not be configured during connect process. PayPal does not allow webhooks where the domain is localhost.
